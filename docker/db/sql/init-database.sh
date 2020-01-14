@@ -3,4 +3,4 @@
 #sleep 90s
 
 #run the setup script to create the DB and the schema in the DB
-mysql -u docker -p docker bank < "/docker-entrypoint-initdb.d/LearningSQLExample.sql"
+mysql -u lrngsql -p password bank < "/docker-entrypoint-initdb.d/LearningSQLExample.sql"
